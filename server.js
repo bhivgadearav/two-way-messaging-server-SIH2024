@@ -13,7 +13,7 @@ const io = socketIo(server, {
   },
 });
 
-const uri = 'mongodb+srv://aravbhivgade685:ozPZVejVfZpy37st@cluster0.ww2pq.mongodb.net/'
+const uri = 'replace-with-your-mongodb-uri';
 
 // MongoDB connection
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
